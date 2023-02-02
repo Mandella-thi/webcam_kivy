@@ -21,6 +21,7 @@ class CameraScreen(Screen):
         current_time = time.strftime('%Y%m%d-%H%M%S')
         filepath = f'file/{current_time}.png'
         self.ids.camera.export_to_png(filepath)
+        #
 
 class ImageScreen(Screen):
     pass
